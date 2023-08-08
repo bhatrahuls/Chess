@@ -35,7 +35,7 @@ public class Pawn extends Piece{
                 valid = true;
             }
         }
-        //double step cancellation functionality to be added
+        
         return valid;
     }
 
