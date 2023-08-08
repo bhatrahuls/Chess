@@ -1,0 +1,26 @@
+
+b
+java:S1192("GDefine a constant instead of duplicating this literal "Bishop" 4 times.(‘áÓ«ıÿÿÿÿ
+b
+java:S1192'"GDefine a constant instead of duplicating this literal "Knight" 4 times.(ô€¾üÿÿÿÿ
+k
+java:S1104
+"PMake spot a static final constant or non-public and provide accessors if needed.(ÖËÇıÿÿÿÿ
+k
+java:S1104"UMake whiteKing a static final constant or non-public and provide accessors if needed.(Ã¬Öª
+p
+java:S1104"UMake blackKing a static final constant or non-public and provide accessors if needed.(º¾Óñÿÿÿÿÿ
+s
+java:S1104"XMake pieceFactory a static final constant or non-public and provide accessors if needed.(ŞôâÛùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Šşğæúÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(Ã¬Öª
+E
+java:S1197"*Move the array designators [] to the type.(º¾Óñÿÿÿÿÿ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(‘æŒ«üÿÿÿÿ
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(ôÆ°²úÿÿÿÿ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(„¤õ³
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(î±Ú¬
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ

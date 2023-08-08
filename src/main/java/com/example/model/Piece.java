@@ -1,0 +1,33 @@
+package com.example.model;
+
+import com.example.ChessGameService.Helper;
+
+public abstract class Piece {
+    private boolean isWhite=false;
+    private boolean everMoved=false;
+
+
+    public boolean isWhite() {
+        return isWhite;
+    }
+
+    public void setWhite(boolean white) {
+        isWhite = white;
+    }
+    public boolean isEverMoved() {
+        return everMoved;
+    }
+
+    public void setEverMoved(boolean everMoved) {
+        this.everMoved = everMoved;
+    }
+    public abstract boolean validateMove(Board board, Spots curSpot, Spots desSpot, Helper helper);
+
+    public abstract boolean isCheck(Board board, Spots curSpot, Spots desSpot,Helper helper);
+
+
+
+
+
+
+}
