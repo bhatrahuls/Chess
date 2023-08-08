@@ -1,12 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Šþðæúÿÿÿÿ
-h
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 63 to the 15 allowed.(µËüù
-D
-java:S1940")Use the opposite operator ("!=") instead.(óÐÕˆúÿÿÿÿ
-D
-java:S1940")Use the opposite operator ("!=") instead.(óÐÕˆúÿÿÿÿ
-?
-java:S1940"")Use the opposite operator ("!=") instead.(œí’¤
-?
-java:S1940'")Use the opposite operator ("!=") instead.(œí’¤
