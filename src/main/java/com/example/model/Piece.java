@@ -1,10 +1,12 @@
 package com.example.model;
 
-import com.example.ChessGameService.Helper;
+import com.example.ChessGameService.ModelService;
 
 public abstract class Piece {
     private boolean isWhite=false;
     private boolean everMoved=false;
+
+    private ModelService validationService;
 
 
     public boolean isWhite() {
@@ -21,13 +23,12 @@ public abstract class Piece {
     public void setEverMoved(boolean everMoved) {
         this.everMoved = everMoved;
     }
-    public abstract boolean validateMove(Board board, Spots curSpot, Spots desSpot, Helper helper);
 
-    public abstract boolean isCheck(Board board, Spots curSpot, Spots desSpot,Helper helper);
+    public ModelService getValidationService() {
+        return validationService;
+    }
 
-
-
-
-
-
+    public void setValidationService(ModelService validationService) {
+        this.validationService = validationService;
+    }
 }

@@ -1,11 +1,6 @@
 package com.example.ChessApplication;
-import com.example.model.Board;
-import com.example.ChessGameService.Helper;
-import com.example.model.Piece;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.Scanner;
 
 @SpringBootApplication(
 		scanBasePackages = {
